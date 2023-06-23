@@ -1,36 +1,38 @@
-El siguiente programa esta hecho en lenguaje C. Tiene el proposito de encontrar el Maximo Comun Divisor de dos numeros enteros ingresados por el usuario. El maximo comun divisor de a y b es el divisor comun mas grande y se denota como d = (a,b), m.c.d. de a y b.
+Numero_primo
 
-Asi d = (a,b) ↔ d/a y d/b
+El siguiente programa esta hecho en lenguaje C. Tiene el proposito de determinar si el numero ingresado por el usuario cumple con las condiciones para ser un numero primo. Sea p ∈ Z , 1 ≠ p ≠ -1 Por definicion decimos que p es primo si sus unicos divisores son p, -p y las unidades. La forma en la que hicimos que esto funcionara en el programa fue utilizando la función del módulo. Utilizando un ciclo for ibamos sacando el módulo de cada número en el ciclo hasta llegar al número que se escribio en la entrada.
+
+Para ejecutar el programa es necesario utilizar cualquier compilador de lenguaje C (online o aplicacion) como lo son Dev C++, Compiler Code C, etc.
 
 Algunos ejemplos de valores de entrada y salida esperados son:
 
-1.- 12, 16 = 4
+1.- 70 = No es un numero primo
 
-2.- 8, 32 = 8
+2.- 13 = Es un numero primo
 
-3.- 15, 8 = 1
+3.- 6 = No es un numero primo
 
 Instrucciones de ejecucion del Programa
 
-    Abre un entorno de desarrollo integrado (IDE) o un editor de texto donde puedas escribir código en C, como Code::Blocks, Dev-C++, Visual Studio Code, o cualquier otro de tu elección.
+Abre un entorno de desarrollo integrado (IDE) o un editor de texto donde puedas escribir código en C, como Code::Blocks, Dev-C++, Visual Studio Code, o cualquier otro de tu elección.
 
-    Crea un nuevo archivo y copia el código del programa de maximo comun divisor en ese archivo.
+Crea un nuevo archivo y copia el código del programa de numeros primos en ese archivo.
 
-    Guarda el archivo con una extensión .c, por ejemplo, "mcd.c".
+Guarda el archivo con una extensión .c, por ejemplo, "primos.c".
 
-    Compila el programa: Abre una terminal o línea de comandos y navega hasta la ubicación del archivo .c. Luego, utiliza el compilador de C, como GCC, para compilar el código. Por ejemplo, si estás utilizando GCC, puedes ejecutar el siguiente comando:
+Compila el programa: Abre una terminal o línea de comandos y navega hasta la ubicación del archivo .c. Luego, utiliza el compilador de C, como GCC, para compilar el código. Por ejemplo, si estás utilizando GCC, puedes ejecutar el siguiente comando:
 
-    gcc -o programa mcd.c
+gcc -o programa primos.c
 
-    Esto generará un archivo ejecutable llamado "programa" en el mismo directorio.
+Esto generará un archivo ejecutable llamado "programa" en el mismo directorio.
 
-    Ejecuta el programa: En la terminal o línea de comandos, escribe el nombre del archivo ejecutable y presiona Enter. Por ejemplo: programa
+Ejecuta el programa: En la terminal o línea de comandos, escribe el nombre del archivo ejecutable y presiona Enter. Por ejemplo: programa
 
-    El programa comenzará a ejecutarse. Sigue las instrucciones y proporciona los valores solicitados.
+El programa comenzará a ejecutarse. Sigue las instrucciones y proporciona los valores solicitados.
 
-    Después de mostrar el resultado, el programa finalizará su ejecución.
+Después de mostrar el resultado, el programa finalizará su ejecución.
 
-¡Eso es todo! Ahora deberías poder ejecutar el programa de maximo comun divisor en C y probar diferentes números enteros.
+¡Eso es todo! Ahora deberías poder ejecutar el programa de numeros primos C y probar diferentes números enteros.
 
 #Diviértete mucho con este que es el mejor programa del mundo :) jajaja
 
